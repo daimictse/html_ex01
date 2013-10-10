@@ -1,0 +1,59 @@
+<html>
+<head>
+    <style>
+        body{
+            background-image:url("pillars-of-creation.jpg");
+            background-size: 2000px auto;
+        }
+
+        .box{
+            float: left;
+            padding: 10px 20px 10px 20px;
+            margin: 10px 10px 10px 10px;
+        }
+
+        #twitterbox{
+            width: 250px
+        }
+
+        #profile{
+            background-color: rgba(13, 128, 153, 0.7);
+        }
+
+        #projects{
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+    </style>
+</head>
+<body>
+    <div class ="box" id="twitterbox">
+        <a class="twitter-timeline" href="https://twitter.com/zardra" data-widget-id="388368993058185217">Tweets by @zardra</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div class="box">
+        <div class="box" id="profile">
+            <img src="liz.png" border="2px" opacity=60>
+            <h1>@zardra</h1><br/>
+            Fall 2013 @Hackbright Software Engineering Fellow, Certified Archivist, Knitter, Spinner, and All-around Fiber Lover
+        </div>
+
+        <div>
+            <div class="box" id="projects">
+                <h2>My awesome projects</h2>
+                <hr/>
+                <p>This amazing webpage!</p>
+                <hr/>
+                <p>Worlds Without End</p>
+            </div>
+            <div class="box" id="projects">
+                <form action="/some_webpage" method="GET">
+                        Name: <input type="text" name="user_name"><br/>
+                        Email: <input type="text" name="user_email"><br/>
+                        Do you like puppies?: Yes <input type="radio" name="user_bunny_preference" value="yes"> No<input type="radio" name="user_bunny_preference" value="no">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
